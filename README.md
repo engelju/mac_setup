@@ -31,6 +31,7 @@ Dev Tools
 - BeyondCompare, Kaleidoscope
 - Filezilla / Transmit+qlcolorcode
 - Terminal / iTerm
+ - Add Config
 - Git / SourceTree / Tower
 - Composer
 - brew, brew cask
