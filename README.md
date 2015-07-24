@@ -7,47 +7,6 @@ https://gist.github.com/brandonb927/3195465
 https://github.com/engeld/setup
 https://github.com/engeld/dotfiles/
 
-## installed with brew
-atomicparsley	cvs		htop-osx	lame		mpg123		php56		readline	unixodbc	zlib
-autoconf	ffmpeg		httpie		libevent	ncurses		php56-xdebug	sip		w3m		zsh
-automake	fish		icu4c		libpng		neovim		pkg-config	spidermonkey	wget
-bdw-gc		fpp		imagemagick	libtool		node		portaudio	sqlite		x264
-brew-cask	freetype	jpeg		libvo-aacenc	nspr		pyqt5		tig		xvid
-cmake		gdbm		jq		libyaml		openssl		python3		tmux		xz
-colordiff	gettext		jsawk		mercurial	pcre		qt5		tree		youtube-dl
-
-- ack
-- atomicparsley
-- brew-cask
-- colordiff
-- ffmpeg
-- fish
-- fpp
-- htop-osx
-- httpie
-- imagemagick
-- jq
-- jsawk
-- libyaml
-- mercurial
-- mpg123
-- ncurses
-- neovim
-- node
-- php56-xdebug
-- portaudio
-- pyqt5
-- python3
-- tig
-- tmux
-- tree
-- w3m
-- wget
-- youtube-dl
-- zsh
-
-https://github.com/engeld/dotfiles/blob/master/conf/Brewfile
-
 ## first thing
 
 0. install xcode from app store and command line tools
@@ -134,3 +93,44 @@ Chrome Extensions
  - YouTube Center: https://greasyfork.org/scripts/943-youtube-center/code/YouTube%20Center.user.js
 - uBlock Origin (Enabled)
 - Workflowy (Offline app)
+
+## installed with brew
+atomicparsley	cvs		htop-osx	lame		mpg123		php56		readline	unixodbc	zlib
+autoconf	ffmpeg		httpie		libevent	ncurses		php56-xdebug	sip		w3m		zsh
+automake	fish		icu4c		libpng		neovim		pkg-config	spidermonkey	wget
+bdw-gc		fpp		imagemagick	libtool		node		portaudio	sqlite		x264
+brew-cask	freetype	jpeg		libvo-aacenc	nspr		pyqt5		tig		xvid
+cmake		gdbm		jq		libyaml		openssl		python3		tmux		xz
+colordiff	gettext		jsawk		mercurial	pcre		qt5		tree		youtube-dl
+
+- ack
+- atomicparsley
+- brew-cask
+- colordiff
+- ffmpeg
+- fish
+- fpp
+- htop-osx
+- httpie
+- imagemagick
+- jq
+- jsawk
+- libyaml
+- mercurial
+- mpg123
+- ncurses
+- neovim
+- node
+- php56-xdebug
+- portaudio
+- pyqt5
+- python3
+- tig
+- tmux
+- tree
+- w3m
+- wget
+- youtube-dl
+- zsh
+
+https://github.com/engeld/dotfiles/blob/master/conf/Brewfile
