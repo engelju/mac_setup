@@ -1,11 +1,18 @@
 # mac_setup
 
-http://lapwinglabs.com/blog/hacker-guide-to-setting-up-your-mac
-https://github.com/matthewmueller/dots/blob/master/os/osx/apps.sh
-https://gist.github.com/brandonb927/3195465
+http://lapwinglabs.com/blog/hacker-guide-to-setting-up-your-mac <br>
+https://github.com/matthewmueller/dots/blob/master/os/osx/apps.sh <br>
+https://gist.github.com/brandonb927/3195465 <br>
 
-https://github.com/engeld/setup
-https://github.com/engeld/dotfiles/
+https://github.com/engeld/setup <br>
+https://github.com/engeld/dotfiles/ <br>
+
+TODO: <br>
+--> more automation like:
+https://github.com/bkuhlmann/osx
+https://github.com/kangax/osx
+https://github.com/tylucaskelley/osx/blob/master/osx.sh
+https://github.com/sajnikanth/osx/blob/master/install_apps
 
 ## first thing
 
@@ -22,7 +29,7 @@ https://github.com/engeld/dotfiles/
 http://macapps.link/
 http://www.getmacapps.com/
 
-Dev Tools
+# Dev Tools
 - Chrome / Chromium / Firefox
 - PHPStorm / PHPStorm EAP
  - Add Config
@@ -40,7 +47,7 @@ Dev Tools
 - Mailcatcher (installed via MAMP, Adress: http://127.0.0.1:1080)
 - Virtualbox / Vagrant
 
-Tools / Utilites
+# Tools / Utilites
 - Dropbox
 - Flexiglass
 - [Easy Move+Resize](https://github.com/dmarcotte/easy-move-resize)
@@ -59,7 +66,7 @@ Tools / Utilites
 - Tunnelblick
 - Appcleaner / AppZapper
 
-Other Tools
+# Other Tools
 - ArtRage
 - Photoshop
 - Deezer
@@ -70,17 +77,11 @@ Other Tools
 - VLC
 - Transmission
 
-Chrome Extensions
-- jetzt
+# Chrome Extensions
 - cVim (Enabled)
-- EditThisCookie
-- Full Page Screen Capture
-- Ghostery
-- Group Reddit Saved Links
 - Https Everywhere (Enabled)
 - iReader (Enabled)
 - JSON Formatter (Enabled)
-- Postman (Offline App)
 - RES (Enabled)
 - Stylish (Enabled)
  - Dark Wikipedia Rounded (Fixed Math Equations) (angepasst)
@@ -93,6 +94,12 @@ Chrome Extensions
 - Tampermonkey (Enabled)
  - YouTube Center: https://greasyfork.org/scripts/943-youtube-center/code/YouTube%20Center.user.js
 - uBlock Origin (Enabled)
+- jetzt
+- EditThisCookie
+- Full Page Screen Capture
+- Ghostery
+- Group Reddit Saved Links
+- Postman (Offline App)
 - Workflowy (Offline app)
 
 ## installed with brew
@@ -133,5 +140,51 @@ colordiff	gettext		jsawk		mercurial	pcre		qt5		tree		youtube-dl
 - wget
 - youtube-dl
 - zsh
+
+## HOMEBREW
+    - [Readline](http://tiswww.case.edu/php/chet/readline/rltop.html)
+    - [OpenSSL](https://openssl.org)
+    - [GPG](https://www.gnupg.org)
+    - [Bash](https://www.gnu.org/software/bash)
+    - [Bash Completion](http://bash-completion.alioth.debian.org)
+    - [tmux](http://tmux.sourceforge.net)
+    - [Mosh](http://mosh.mit.edu)
+    - [Vim](http://www.vim.org)
+    - [asciinema](https://asciinema.org)
+    - [ShellCheck](https://github.com/koalaman/shellcheck)
+    - [Colorized Cat](https://github.com/jingweno/ccat)
+    - [Tree](http://mama.indstate.edu/users/ice/tree)
+    - [hr](https://github.com/LuRsT/hr)
+    - [Git](http://git-scm.com)
+    - [Mecurial](http://mercurial.selenic.com)
+    - [Hub](https://github.com/defunkt/hub)
+    - [GHI](https://github.com/stephencelis/ghi)
+    - [CTags](http://ctags.sourceforge.net)
+    - [Tag](https://github.com/jdberry/tag)
+    - [jq](http://stedolan.github.com/jq)
+    - [The Silver Surfer](https://github.com/ggreer/the_silver_searcher)
+    - [FZF](https://github.com/junegunn/fzf)
+    - [Pipe Viewer](http://www.ivarch.com/programs/pv.shtml)
+    - [HTTPie](https://github.com/jkbrzt/httpie)
+    - [Ioping](https://code.google.com/p/ioping)
+    - [Network Grep](http://ngrep.sourceforge.net)
+    - [ImageMagick](http://www.imagemagick.org)
+    - [Graphviz](http://www.graphviz.org)
+    - [FLAC](https://www.xiph.org/flac)
+    - [FFmpeg](http://ffmpeg.org)
+    - [Gifsicle](http://www.lcdf.org/gifsicle)
+    - [Node.js](http://nodejs.org)
+    - [Phantom.js](http://phantomjs.org)
+    - [Ruby](http://www.ruby-lang.org)
+    - [Rust](https://www.rust-lang.org)
+    - [Go](http://golang.org)
+    - [Nginx](http://wiki.nginx.org)
+    - [Pow](http://pow.cx)
+    - [Memcached](http://memcached.org)
+    - [Redis](http://redis.io)
+    - [mycli](http://mycli.net/)
+    - [lnav](http://lnav.org/)
+    - [cloc](https://github.com/AlDanial/cloc)
+    - [Watchman](https://github.com/facebook/watchman)
 
 https://github.com/engeld/dotfiles/blob/master/conf/Brewfile
