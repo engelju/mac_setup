@@ -1,190 +1,290 @@
 # mac_setup
 
-http://lapwinglabs.com/blog/hacker-guide-to-setting-up-your-mac <br>
-https://github.com/matthewmueller/dots/blob/master/os/osx/apps.sh <br>
-https://gist.github.com/brandonb927/3195465 <br>
+## Dev Tools
+- Jetbrains Toolbox
+    - Install IntelliJ and GoLand
+- Sublime Text
+    https://www.youtube.com/watch?v=Rb5wFjo3diE
+- Visual Studio Code
+- Neovim + NormalVim: https://github.com/engelju/NormalNvim
+- iTerm2
 
-https://github.com/engeld/setup <br>
-https://github.com/engeld/dotfiles/ <br>
+## Must-Have
+- Firefox
+    - Settings
+    - about:config
+    - Extensions
+        - Adaptive Tab Bar Color
+        - Bitwarden Passwort Manager
+        - Enhancer for Youtube + Unhook
+        - Old Reddit Redirect + Reddit Enhancement Suite
+        - Refined Github
+        - Stylus: Styles see Repo
+        - uBlock Origin (Enabled)
+        - Vimium
+    - Lepton: https://github.com/black7375/Firefox-UI-Fix
+- Microsoft Office Suite for Mac
+- Dropbox / OneDrive
+- Spotify
+- VLC
+- Transmission
 
-TODO: <br>
+## Tools / Utilites
+- AltTab
+- Caffeine
+- CoconutBattery
+- Hammerspoon
+    - Basic Window Manager
+    - Shortcuts for Apps
+    - Blue Border for Active Window (window-highlight.lua)
+    - https://github.com/Adam13531/AdamsApple/tree/main/hammerspoon
+    - https://www.hammerspoon.org/Spoons/
+- Mission Control Plus
+- Flux
+- Appcleaner
+- [Easy Move+Resize](https://github.com/dmarcotte/easy-move-resize)
+    - [Flexiglass](https://anjuta.com/flexiglass)
+    - [SwiftShift](https://www.swiftshift.app/)
+
+### Outdated
+- Karabiner / Seil
+- [HyperSwitch](https://www.bahoom.com/hyperswitch/)
+- [HyperDock](https://www.bahoom.com/hyperdock)
+- [CDock](https://www.macenhance.com/cdock)
+- [ShadowSweeper](https://www.irradiatedsoftware.com/labs/)
+
+## HOMEBREW
+Install Brewfile: https://homebrew-file.readthedocs.io/en/latest/installation.html
+
+```bash
+# tap repositories and their packages
+tap homebrew/core
+brew abseil
+brew aom
+brew aribb24
+brew asciinema
+brew autoconf
+brew autoenv
+brew automake
+brew bat
+brew bdw-gc
+brew brotli
+brew ca-certificates
+brew cairo
+brew ccat
+brew certifi
+brew cjson
+brew colordiff
+brew dav1d
+brew fd
+brew ffmpeg
+brew flac
+brew fontconfig
+brew freetype
+brew frei0r
+brew fribidi
+brew fzf
+brew gettext
+brew ghostscript
+brew giflib
+brew git-delta
+brew gitu
+brew gitui
+brew glib
+brew gmp
+brew gnutls
+brew graphite2
+brew harfbuzz
+brew highway
+brew htop
+brew httpie
+brew icu4c@76
+brew imagemagick
+brew imath
+brew jasper
+brew jbig2dec
+brew jpeg-turbo
+brew jpeg-xl
+brew jq
+brew lame
+brew lazydocker
+brew lazygit
+brew leptonica
+brew libarchive
+brew libass
+brew libb2
+brew libbluray
+brew libde265
+brew libdeflate
+brew libevent
+brew libgit2
+brew libheif
+brew libidn
+brew libidn2
+brew liblqr
+brew libmicrohttpd
+brew libnghttp2
+brew libogg
+brew libomp
+brew libplacebo
+brew libpng
+brew libraw
+brew librist
+brew libsamplerate
+brew libsndfile
+brew libsodium
+brew libsoxr
+brew libssh
+brew libssh2
+brew libtasn1
+brew libtiff
+brew libtool
+brew libunibreak
+brew libunistring
+brew libuv
+brew libvidstab
+brew libvmaf
+brew libvorbis
+brew libvpx
+brew libvterm
+brew libx11
+brew libxau
+brew libxcb
+brew libxdmcp
+brew libxext
+brew libxrender
+brew little-cms2
+brew lpeg
+brew lua
+brew luajit
+brew luarocks
+brew luv
+brew lz4
+brew lzo
+brew m4
+brew mbedtls
+brew miniupnpc
+brew mise
+brew molten-vk
+brew mosh
+brew mpdecimal
+brew mpg123
+brew mpv
+brew msgpack
+brew mujs
+brew ncurses
+brew neovim
+brew nettle
+brew oniguruma
+brew opencore-amr
+brew openexr
+brew openjpeg
+brew openssl@3
+brew opus
+brew p11-kit
+brew pango
+brew pcre
+brew pcre2
+brew pixman
+brew protobuf
+brew pv
+brew python-packaging
+brew python@3.13
+brew rav1e
+brew readline
+brew ripgrep
+brew rubberband
+brew screen
+brew sdl2
+brew shaderc
+brew shared-mime-info
+brew shellcheck
+brew snappy
+brew speex
+brew sqlite
+brew srt
+brew svt-av1
+brew tesseract
+brew the_silver_searcher
+brew theora
+brew tig
+brew tmux
+brew transmission-cli
+brew tree
+brew tree-sitter
+brew uchardet
+brew unbound
+brew unibilium
+brew usage
+brew utf8proc
+brew vapoursynth
+brew vulkan-headers
+brew vulkan-loader
+brew w3m
+brew webp
+brew wget
+brew x264
+brew x265
+brew xorgproto
+brew xvid
+brew xz
+brew yarn
+brew yazi
+brew yq
+brew yt-dlp
+brew zeromq
+brew zimg
+brew zstd
+
+tap homebrew/cask
+cask alt-tab
+cask appcleaner
+cask coconutbattery
+cask domzilla-caffeine
+cask dropbox
+cask easy-move+resize
+cask elgato-stream-deck
+cask firefox
+cask flux
+cask git-credential-manager
+cask hammerspoon
+cask iterm2
+cask jetbrains-toolbox
+cask jordanbaird-ice
+cask microsoft-auto-update
+cask microsoft-office
+cask microsoft-teams
+cask mission-control-plus
+cask orbstack
+cask spotify
+cask steam
+cask sublime-text
+cask visual-studio-code
+cask vlc
+cask whatsapp
+# nerd-fonts casks
+
+tap pablopunk/brew
+
+tap rcmdnk/file
+brew brew-file
+
+# App Store applications
+appstore 426410278 Flexiglass (1.8)
+```
+
+# Automation
+
+http://lapwinglabs.com/blog/hacker-guide-to-setting-up-your-mac
+https://github.com/matthewmueller/dots/blob/master/os/osx/apps.sh
+https://gist.github.com/brandonb927/3195465
+
+https://github.com/engeld/setup
+https://github.com/engeld/dotfiles/
+
+TODO:
 --> more automation like:
 https://github.com/bkuhlmann/osx
 https://github.com/kangax/osx
 https://github.com/tylucaskelley/osx/blob/master/osx.sh
 https://github.com/sajnikanth/osx/blob/master/install_apps
-
-## first thing
-
-0. install xcode from app store and command line tools
-1. install homebrew & update
-2. brew install coreutils   # Install GNU core utilities (those that come with OS X are outdated)
-3. brew install findutils   # Install GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed
-4. brew install bash        # Install Bash 4
-5. brew tap homebrew/dupes            
-6. brew install homebrew/dupes/grep   # Install more recent versions of some OS X tools
-
-## installed apps
-
-http://macapps.link/
-http://www.getmacapps.com/
-
-# Dev Tools
-- Chrome / Chromium / Firefox
-- PHPStorm / PHPStorm EAP
- - Add Config
- - Add Plugins
-- Atom, Brackets, Sublime Text, MacVim
-- BeyondCompare, Kaleidoscope
-- Filezilla / Transmit+qlcolorcode
-- Terminal / iTerm
- - Add Config
-- Git / SourceTree / Tower
-- Composer
-- brew, brew cask
-- MAMP Pro
-- Sequel Pro (installed via MAMP)
-- Mailcatcher (installed via MAMP, Adress: http://127.0.0.1:1080)
-- Virtualbox / Vagrant
-
-# Tools / Utilites
-- Dropbox
-- Flexiglass
-- [Easy Move+Resize](https://github.com/dmarcotte/easy-move-resize)
-- Karabiner / Seil
-- CDock
-- HyperDock
-- HyperSwitch
-- ShadowSweeper
-- iStat Menus
-- Bartender
-- Geektool
- - Add Config
-- Flux
-- The Unarchiver
-- TotalFinder
-- Tunnelblick
-- Appcleaner / AppZapper
-
-# Other Tools
-- ArtRage
-- Photoshop
-- Deezer
-- SoundCleod
-- HipChat
-- LibreOffice
-- Microsoft Office Suite for Mac
-- VLC
-- Transmission
-
-# Chrome Extensions
-- cVim (Enabled)
-- Https Everywhere (Enabled)
-- iReader (Enabled)
-- JSON Formatter (Enabled)
-- RES (Enabled)
-- Stylish (Enabled)
- - Dark Wikipedia Rounded (Fixed Math Equations) (angepasst)
- - GitHub Dark
- - GitHub Wide
- - GitHub Gist Wide
- - Google - Material Design (angepasst)
- - Reddit Slate Nights 2.0 (Dark) (angepasst)
- - Youtube - Dark Grey
-- Tampermonkey (Enabled)
- - YouTube Center: https://greasyfork.org/scripts/943-youtube-center/code/YouTube%20Center.user.js
-- uBlock Origin (Enabled)
-- jetzt
-- EditThisCookie
-- Full Page Screen Capture
-- Ghostery
-- Group Reddit Saved Links
-- Postman (Offline App)
-- Workflowy (Offline app)
-
-## installed with brew
-atomicparsley	cvs		htop-osx	lame		mpg123		php56		readline	unixodbc	zlib
-autoconf	ffmpeg		httpie		libevent	ncurses		php56-xdebug	sip		w3m		zsh
-automake	fish		icu4c		libpng		neovim		pkg-config	spidermonkey	wget
-bdw-gc		fpp		imagemagick	libtool		node		portaudio	sqlite		x264
-brew-cask	freetype	jpeg		libvo-aacenc	nspr		pyqt5		tig		xvid
-cmake		gdbm		jq		libyaml		openssl		python3		tmux		xz
-colordiff	gettext		jsawk		mercurial	pcre		qt5		tree		youtube-dl
-
-- ack
-- atomicparsley
-- brew-cask
-- colordiff
-- ffmpeg
-- fish
-- fpp
-- htop-osx
-- httpie
-- imagemagick
-- jq
-- jsawk
-- libyaml
-- mercurial
-- mpg123
-- ncurses
-- neovim
-- node
-- php56-xdebug
-- portaudio
-- pyqt5
-- python3
-- tig
-- tmux
-- tree
-- w3m
-- wget
-- youtube-dl
-- zsh
-
-## HOMEBREW
-    - [Readline](http://tiswww.case.edu/php/chet/readline/rltop.html)
-    - [OpenSSL](https://openssl.org)
-    - [GPG](https://www.gnupg.org)
-    - [Bash](https://www.gnu.org/software/bash)
-    - [Bash Completion](http://bash-completion.alioth.debian.org)
-    - [tmux](http://tmux.sourceforge.net)
-    - [Mosh](http://mosh.mit.edu)
-    - [Vim](http://www.vim.org)
-    - [asciinema](https://asciinema.org)
-    - [ShellCheck](https://github.com/koalaman/shellcheck)
-    - [Colorized Cat](https://github.com/jingweno/ccat)
-    - [Tree](http://mama.indstate.edu/users/ice/tree)
-    - [hr](https://github.com/LuRsT/hr)
-    - [Git](http://git-scm.com)
-    - [Mecurial](http://mercurial.selenic.com)
-    - [Hub](https://github.com/defunkt/hub)
-    - [GHI](https://github.com/stephencelis/ghi)
-    - [CTags](http://ctags.sourceforge.net)
-    - [Tag](https://github.com/jdberry/tag)
-    - [jq](http://stedolan.github.com/jq)
-    - [The Silver Surfer](https://github.com/ggreer/the_silver_searcher)
-    - [FZF](https://github.com/junegunn/fzf)
-    - [Pipe Viewer](http://www.ivarch.com/programs/pv.shtml)
-    - [HTTPie](https://github.com/jkbrzt/httpie)
-    - [Ioping](https://code.google.com/p/ioping)
-    - [Network Grep](http://ngrep.sourceforge.net)
-    - [ImageMagick](http://www.imagemagick.org)
-    - [Graphviz](http://www.graphviz.org)
-    - [FLAC](https://www.xiph.org/flac)
-    - [FFmpeg](http://ffmpeg.org)
-    - [Gifsicle](http://www.lcdf.org/gifsicle)
-    - [Node.js](http://nodejs.org)
-    - [Phantom.js](http://phantomjs.org)
-    - [Ruby](http://www.ruby-lang.org)
-    - [Rust](https://www.rust-lang.org)
-    - [Go](http://golang.org)
-    - [Nginx](http://wiki.nginx.org)
-    - [Pow](http://pow.cx)
-    - [Memcached](http://memcached.org)
-    - [Redis](http://redis.io)
-    - [mycli](http://mycli.net/)
-    - [lnav](http://lnav.org/)
-    - [cloc](https://github.com/AlDanial/cloc)
-    - [Watchman](https://github.com/facebook/watchman)
-
-https://github.com/engeld/dotfiles/blob/master/conf/Brewfile

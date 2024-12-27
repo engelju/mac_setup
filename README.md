@@ -1,3 +1,3 @@
 # mac_setup
 
-yo.
+- Informations about installed apps are here: [apps.md](./apps.md).
