@@ -3,16 +3,22 @@
 ## Dev Tools
 - Jetbrains Toolbox
     - Install IntelliJ and GoLand
+    - Restore old layout:
+        - ClassicUI: https://plugins.jetbrains.com/plugin/24468-classic-ui
+        - https://dev.to/rytis/bring-back-old-intellij-theme-somewhat-5d6g
 - Sublime Text
-    https://www.youtube.com/watch?v=Rb5wFjo3diE
+    - https://www.youtube.com/watch?v=Rb5wFjo3diE
 - Visual Studio Code
-- Neovim + NormalVim: https://github.com/engelju/NormalNvim
+- OrbStack
+- Neovim + NormalVim
+    - https://github.com/engelju/NormalNvim
 - iTerm2
 
 ## Must-Have
 - Firefox
     - Settings
     - about:config
+        - layout.css.devPixelsPerPx to 1.1
     - Extensions
         - Adaptive Tab Bar Color
         - Bitwarden Passwort Manager
@@ -34,17 +40,21 @@
 - Caffeine
 - CoconutBattery
 - Hammerspoon
-    - Basic Window Manager
     - Shortcuts for Apps
+        - cmd+1 fuer iTerm
+        - cmd+2 fuer Firefox
+        - cmd+3 fuer Sublime Text
+    - Basic Window Manager
     - Blue Border for Active Window (window-highlight.lua)
-    - https://github.com/Adam13531/AdamsApple/tree/main/hammerspoon
-    - https://www.hammerspoon.org/Spoons/
+    - Other Stuff
+        - https://github.com/Adam13531/AdamsApple/tree/main/hammerspoon
+        - https://www.hammerspoon.org/Spoons/
 - Mission Control Plus
-- Flux
-- Appcleaner
 - [Easy Move+Resize](https://github.com/dmarcotte/easy-move-resize)
     - [Flexiglass](https://anjuta.com/flexiglass)
     - [SwiftShift](https://www.swiftshift.app/)
+- Flux
+- Appcleaner
 
 ### Outdated
 - Karabiner / Seil
@@ -273,18 +283,3 @@ brew brew-file
 appstore 426410278 Flexiglass (1.8)
 ```
 
-# Automation
-
-http://lapwinglabs.com/blog/hacker-guide-to-setting-up-your-mac
-https://github.com/matthewmueller/dots/blob/master/os/osx/apps.sh
-https://gist.github.com/brandonb927/3195465
-
-https://github.com/engeld/setup
-https://github.com/engeld/dotfiles/
-
-TODO:
---> more automation like:
-https://github.com/bkuhlmann/osx
-https://github.com/kangax/osx
-https://github.com/tylucaskelley/osx/blob/master/osx.sh
-https://github.com/sajnikanth/osx/blob/master/install_apps
