@@ -57,8 +57,9 @@
     - [SwiftShift](https://www.swiftshift.app/)
 - F.lux
 - Appcleaner
-- Mos https://mos.caldis.me/
-    - or https://macmousefix.com/
+- Steermouse: https://plentycom.jp/en/steermouse/download.php
+    - Mos https://mos.caldis.me/
+    - Macmousefix https://macmousefix.com/
 
 ### Outdated
 - Karabiner / Seil
